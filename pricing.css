@@ -1,0 +1,68 @@
+.heading {
+    font-size: 50px;
+    text-align: center;
+   padding: 20px;
+}
+:root{
+    --bg-color:#000;
+    --snd-bg-color:#111;
+    --text-color:#fff;
+    --main-color:#1ebd0f;
+}
+
+.plans{
+    background: var(--snd-bg-color);
+}
+
+.plans-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    margin-top: 4.2rem;
+    gap: 3.3rem;
+    padding-bottom: 80px;
+    
+}
+
+.box {
+    
+    padding: 30px 30px 50px;
+   height: 48rem;
+   background-color: var(--bg-color);
+   border-radius: 28px;
+   border: 2px solid transparent;
+   box-shadow: 0 0 5px var(--main-color);
+   transition: all .5s ease;
+   cursor: pointer;
+   
+}
+
+.box:hover{
+    border: 2px solid var(--main-color);
+    transform: scale(1.03);
+    background: rgba(0, 0, 0, 0.301);
+    box-shadow: 3rem 2rem 2rem var(--bg-color);
+}
+
+.box h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.btn1{
+    margin-left: 60px;
+}
+
+.box h2 {
+    font-size: 43px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.box ul li {
+    font-size: 1.7rem;
+    list-style: disc;
+    padding-bottom: 1.3rem;
+   
+}
+.box ul{
+    margin: 5rem;
+}
